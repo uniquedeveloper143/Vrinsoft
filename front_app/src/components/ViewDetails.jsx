@@ -59,7 +59,7 @@ function ViewDetails() {
             src={itemDetails.photo}
             className="card-img-top"
             alt={itemDetails.title}
-            style={{ height: '400px', objectFit: 'cover' }}
+            style={{ height: '350px', objectFit: 'cover' }}
           />
           <div className="card-body">
             {/* Show related objects, e.g., related items */}

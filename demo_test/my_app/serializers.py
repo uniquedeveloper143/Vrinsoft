@@ -3,6 +3,8 @@ from demo_test.my_app.models import Image,ImageDetails
 from django.utils.translation import gettext_lazy as _
 from rest_framework.exceptions import ValidationError
 from demo_test.utils.comman import count_objects
+from .tasks import detect_objects_task
+
 
 
 class ImageSerializer(serializers.ModelSerializer):
@@ -26,14 +28,16 @@ class ImageSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         instance = super().create(validated_data)
+
         # import pdb;pdb.set_trace()
-        objects_details = count_objects(instance.photo.path)
+        # Now call Celery task
+        objects_details = detect_objects_task.delay(instance.photo.path, instance.id)
+
         # print("*"*44)
-        # print(instance.photo.url)
-        # print(instance.photo.path)
-        # print(objects_details)
-        for key, value  in objects_details.items():
-            ImageDetails.objects.create(image=instance, name=key, total_count=value)
+        # This is for without celery
+        # objects_details = count_objects(instance.photo.path)
+        # for key, value  in objects_details.items():
+        #     ImageDetails.objects.create(image=instance, name=key, total_count=value)
 
         return instance
 
