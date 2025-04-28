@@ -5,88 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45727dfe-dda7-4b2e-a95d-730ee1a502e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/celery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/sett.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/development.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/production.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/api_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/auth_backends/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/auth_backends/model_backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/managers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/custom_auth/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/api_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/my_app/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/comman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/generate_api_key.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/paginator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/password_validate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/renderer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_test/utils/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/01e9d31d-40c2-4344-b783-ae8f522f77b6_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/1cd877f3-c0c9-4b0b-be6f-ee58642283f8_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/27ffe798-d94d-4361-9bfe-ca4d6f88ae5f_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/2cee7d74-a616-4aea-94dd-b532a435aa8d_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/352f5729-86a5-4569-a413-81a59a2dd8b6_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/37b78377-de79-4313-a04e-ff1a2d6b4fdd_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/38385f63-76cf-45e1-a715-bca6b4951f60_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/4830745c-243a-4417-b01b-1d856f630f2e_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/50fa205a-aa7e-454f-9ab6-08b1cb2cec4b_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/6062b985-e33e-4704-b00f-ef87d52ae9a9_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/685487ac-c715-4141-ab0e-aef862345009_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/6e0492d8-af3d-463a-8ca2-0fe104346775_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/7312e1e2-775f-4b2b-8cd1-0f97a790757b_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/783e2a0c-788d-4b83-9d4a-f611366498ef_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/7a3ffec1-69c7-4050-8928-0443d8366f15_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/8d258f9c-5ad3-4dc7-a945-ed9120bf96b3_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/90bbb9ba-3871-4833-80cf-303c09cb8e0a_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/a7b14eab-1019-4a3f-bb57-739d13b2e56f_.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/bf024b2d-52ad-4e0c-aa05-10419b16f154_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/c40aff72-9e50-4a05-9a34-a659a9781f56_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/c65b433f-573a-4334-8258-6f6c103d3cd5_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/title_image/dc3b9b2a-0f72-43b0-a39a-dda3dfb1a46a_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov8n.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_app/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_test/my_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_test/my_app/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/01e9d31d-40c2-4344-b783-ae8f522f77b6_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/1cd877f3-c0c9-4b0b-be6f-ee58642283f8_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/27ffe798-d94d-4361-9bfe-ca4d6f88ae5f_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/2cee7d74-a616-4aea-94dd-b532a435aa8d_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/352f5729-86a5-4569-a413-81a59a2dd8b6_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/37b78377-de79-4313-a04e-ff1a2d6b4fdd_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/38385f63-76cf-45e1-a715-bca6b4951f60_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/4830745c-243a-4417-b01b-1d856f630f2e_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/50fa205a-aa7e-454f-9ab6-08b1cb2cec4b_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/6062b985-e33e-4704-b00f-ef87d52ae9a9_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/685487ac-c715-4141-ab0e-aef862345009_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/6e0492d8-af3d-463a-8ca2-0fe104346775_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/7312e1e2-775f-4b2b-8cd1-0f97a790757b_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/783e2a0c-788d-4b83-9d4a-f611366498ef_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/7a3ffec1-69c7-4050-8928-0443d8366f15_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/8d258f9c-5ad3-4dc7-a945-ed9120bf96b3_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/90bbb9ba-3871-4833-80cf-303c09cb8e0a_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/a7b14eab-1019-4a3f-bb57-739d13b2e56f_.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/bf024b2d-52ad-4e0c-aa05-10419b16f154_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/c40aff72-9e50-4a05-9a34-a659a9781f56_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/c65b433f-573a-4334-8258-6f6c103d3cd5_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/title_image/dc3b9b2a-0f72-43b0-a39a-dda3dfb1a46a_.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,16 +58,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.generate_api_key.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/neosoft/Documents/MyProjects/m_akmal_d&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.generate_api_key.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/neosoft/Documents/MyProjects/DemoTest/demo_test/my_app",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demo_test/my_app" />
@@ -201,7 +150,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/demo_test/my_app/serializers.py</url>
-          <line>17</line>
+          <line>19</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

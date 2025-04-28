@@ -99,7 +99,7 @@ function AddItem() {
             </div>
             { loading ?
                 <>
-                <div className="text-center m-4">Uploading...</div>;
+                <div className="text-center m-4">Uploading...</div>
                 </>
                 :
                 <>
