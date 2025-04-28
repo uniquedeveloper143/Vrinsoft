@@ -68,11 +68,11 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-#.idea/
-#.idea/workspace.xml
+.idea/
+.idea/workspace.xml
 
-#media
-#media/
+media
+media/
 
 # Sphinx documentation
 docs/_build/
